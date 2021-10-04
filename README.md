@@ -49,7 +49,7 @@ You can use the slider to set the population size and then click on the "Create 
        terminal) 
     2) Setup the voila extension to Jupyter notebook using **!jupyter serverextension enable --sys-
        prefix voila**
-    3) Restart the Jupyter notebook. you will be able to find the voila extension on the menu bar. 
-    ![alt text](https://github.com/ashwanirajan/Central-Limit-Theorem-USF-MSDS610/blob/main/Images/voila.png)
+    3) Restart the Jupyter notebook. you will be able to find the voila extension on the menu bar.
        Click on it. It will redirect you to a version of your notebook which only shows markdowns and 
        interactive ipython widgets. 
+ ![alt text](https://github.com/ashwanirajan/Central-Limit-Theorem-USF-MSDS610/blob/main/Images/voila.png)
