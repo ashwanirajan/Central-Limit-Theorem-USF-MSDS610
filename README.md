@@ -51,7 +51,11 @@ Population Distribution             |  Sampling Distribution of Sample Means
 ## Installation
 
 # Viola
-On your jupyter notebook, run ```console !pip install voila ```
+On your jupyter notebook, run 
+```console 
+!pip install voila
+```
+
 Setup the voila extension to Jupyter notebook using 
 ```console
 !jupyter serverextension enable --sys-prefix voila
