@@ -1,10 +1,5 @@
-# Central-Limit-Theorem-USF-MSDS610
+# <center>The Central Limit Theorem</center>
 
-Class Project for code demonstration
-Topic: Central Limit Theorem
-
-# Central limit Theorem
-​
 It states that the sampling distribution of the sample means follows a normal distribution with a mean equal to the population average and a standard deviation equal to the population standard deviation by the square root of sample size.
 ​
 We are going to demonstrate the applicability of the central limit theorem through this code. 
@@ -29,26 +24,40 @@ This function is used to visualize the distributions generated. This function ta
 # Visualization 
 ​
 The Central Limit Theorem is not very straightforward, so some visualizations would help with understanding the intuition. As mentioned earlier, you can select among the four distributions listed below:
-    
-    1) Rolling a die (Uniform Distribution)
-    2) Number of goals per game in a world cup (Poisson Distribution)
-    3) Number of heads in 100 coin tosses (Binomial Distribution)
-    4) Height of adult men in the US (Normal Distribution)
+
+![alt text](https://github.com/ashwanirajan/Central-Limit-Theorem-USF-MSDS610/blob/main/Images/Choosing_Distribution.png)
+
         
 You can use the slider to set the population size and then click on the "Create Population" button to initiate the population and plot the frequency distribution histogram for the selected population. The next step is to generate a large number of samples from the chosen population distribution. You can use the "sample size" and "number of samples" sliders to set the size of each sample and the number of samples that need to be generated from the population. Click on the "Create Sampling Distribution" button to plot the sample means for all the sampling distributions.
-​
-​
+
+![alt text](https://github.com/ashwanirajan/Central-Limit-Theorem-USF-MSDS610/blob/main/Images/Sample_Params.png)
+
+
 # In summary
     1) We choose a non-normal population distribution.
     2) We take repeated samples to get a data set of sampling means 
     3) We visualize the distribution of the sample means using a histogram
+    
+Population Distribution             |  Sampling Distribution of Sample Means
+:-------------------------:|:-------------------------:
+![](https://github.com/ashwanirajan/Central-Limit-Theorem-USF-MSDS610/blob/main/Images/population_dist.png)  |  ![](https://github.com/ashwanirajan/Central-Limit-Theorem-USF-MSDS610/blob/main/Images/Sample_dist.png)
+
+
 ## Installation
-​
+
 # Viola
-    1) On your jupyter notebook, run **!pip install voila**. (Or you can run pip install voila on the 
-       terminal) 
-    2) Setup the voila extension to Jupyter notebook using **!jupyter serverextension enable --sys-
-       prefix voila**
-    3) Restart the Jupyter notebook. you will be able to find the voila extension on the menu bar. 
-       Click on it. It will redirect you to a version of your notebook which only shows markdowns and 
-       interactive ipython widgets.
+On your jupyter notebook, run 
+```console 
+!pip install voila
+```
+
+Setup the voila extension to Jupyter notebook using 
+```console
+!jupyter serverextension enable --sys-prefix voila
+```
+
+Restart the Jupyter notebook. you will be able to find the voila extension on the menu bar. 
+ ![alt text](https://github.com/ashwanirajan/Central-Limit-Theorem-USF-MSDS610/blob/main/Images/voila.png)
+ 
+Click on it. It will redirect you to a version of your notebook which only shows markdowns and interactive ipython widgets. 
+ 
