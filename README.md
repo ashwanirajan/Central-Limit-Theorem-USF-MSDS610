@@ -51,11 +51,13 @@ Population Distribution             |  Sampling Distribution of Sample Means
 ## Installation
 
 # Viola
-    1) On your jupyter notebook, run **!pip install voila**. (Or you can run pip install voila on the 
-       terminal) 
-    2) Setup the voila extension to Jupyter notebook using **!jupyter serverextension enable --sys-
-       prefix voila**
-    3) Restart the Jupyter notebook. you will be able to find the voila extension on the menu bar.
-       Click on it. It will redirect you to a version of your notebook which only shows markdowns and 
-       interactive ipython widgets. 
+On your jupyter notebook, run ```console !pip install voila ```
+Setup the voila extension to Jupyter notebook using 
+```console
+!jupyter serverextension enable --sys-prefix voila
+```
+
+Restart the Jupyter notebook. you will be able to find the voila extension on the menu bar. 
  ![alt text](https://github.com/ashwanirajan/Central-Limit-Theorem-USF-MSDS610/blob/main/Images/voila.png)
+ Click on it. It will redirect you to a version of your notebook which only shows markdowns and interactive ipython widgets. 
+ 
