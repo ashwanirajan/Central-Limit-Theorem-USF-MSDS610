@@ -1,10 +1,5 @@
-# Central-Limit-Theorem-USF-MSDS610
+# <center>The Central Limit Theorem</center>
 
-Class Project for code demonstration
-Topic: Central Limit Theorem
-
-# Central limit Theorem
-​
 It states that the sampling distribution of the sample means follows a normal distribution with a mean equal to the population average and a standard deviation equal to the population standard deviation by the square root of sample size.
 ​
 We are going to demonstrate the applicability of the central limit theorem through this code. 
