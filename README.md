@@ -29,6 +29,8 @@ This function is used to visualize the distributions generated. This function ta
 # Visualization 
 ​
 The Central Limit Theorem is not very straightforward, so some visualizations would help with understanding the intuition. As mentioned earlier, you can select among the four distributions listed below:
+
+![alt text](https://github.com/ashwanirajan/Central-Limit-Theorem-USF-MSDS610/blob/main/Images/Choosing_Distribution.png)
     
     1) Rolling a die (Uniform Distribution)
     2) Number of goals per game in a world cup (Poisson Distribution)
