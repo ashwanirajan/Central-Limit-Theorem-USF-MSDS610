@@ -31,21 +31,19 @@ This function is used to visualize the distributions generated. This function ta
 The Central Limit Theorem is not very straightforward, so some visualizations would help with understanding the intuition. As mentioned earlier, you can select among the four distributions listed below:
 
 ![alt text](https://github.com/ashwanirajan/Central-Limit-Theorem-USF-MSDS610/blob/main/Images/Choosing_Distribution.png)
-    
-    1) Rolling a die (Uniform Distribution)
-    2) Number of goals per game in a world cup (Poisson Distribution)
-    3) Number of heads in 100 coin tosses (Binomial Distribution)
-    4) Height of adult men in the US (Normal Distribution)
+
         
 You can use the slider to set the population size and then click on the "Create Population" button to initiate the population and plot the frequency distribution histogram for the selected population. The next step is to generate a large number of samples from the chosen population distribution. You can use the "sample size" and "number of samples" sliders to set the size of each sample and the number of samples that need to be generated from the population. Click on the "Create Sampling Distribution" button to plot the sample means for all the sampling distributions.
-​
-​
+
+![alt text](https://github.com/ashwanirajan/Central-Limit-Theorem-USF-MSDS610/blob/main/Images/Sample_Params.png)
+
+
 # In summary
     1) We choose a non-normal population distribution.
     2) We take repeated samples to get a data set of sampling means 
     3) We visualize the distribution of the sample means using a histogram
 ## Installation
-​
+
 # Viola
     1) On your jupyter notebook, run **!pip install voila**. (Or you can run pip install voila on the 
        terminal) 
