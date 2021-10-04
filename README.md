@@ -43,9 +43,9 @@ You can use the slider to set the population size and then click on the "Create 
     2) We take repeated samples to get a data set of sampling means 
     3) We visualize the distribution of the sample means using a histogram
     
-Solarized dark             |  Solarized Ocean
+Population Distribution             |  Sampling Distribution of Sample Means
 :-------------------------:|:-------------------------:
-![](https://github.com/ashwanirajan/Central-Limit-Theorem-USF-MSDS610/blob/main/Images/Sample_dist.png)  |  ![](https://github.com/ashwanirajan/Central-Limit-Theorem-USF-MSDS610/blob/main/Images/population_dist.png)
+![](https://github.com/ashwanirajan/Central-Limit-Theorem-USF-MSDS610/blob/main/Images/population_dist.png)  |  ![](https://github.com/ashwanirajan/Central-Limit-Theorem-USF-MSDS610/blob/main/Images/Sample_dist.png)
 
 
 ## Installation
