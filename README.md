@@ -75,16 +75,15 @@ We will do a simulation based on the model $𝑦=3+5·𝑥$. Our data is generat
   2) We repeat the first step 5000 times, resulting in 5000 estimators of the coefficient of x 
   3) Finally, we plot the histogram of these 5000 numbers and compare it against the normal distribution based on the sample mean and sample variance
 
-![alt text](https://github.com/ashwanirajan/Central-Limit-Theorem-USF-MSDS610/blob/main/Images/Choosing_Distribution.png)
 
 The histogram is bell-shaped and symmetric about 5. The theoretical normal distribution seems to 
 fit with the histogram.     
 
-![alt text](https://github.com/ashwanirajan/Central-Limit-Theorem-USF-MSDS610/blob/main/Images/Choosing_Distribution.png)
+![alt text](https://github.com/ashwanirajan/Central-Limit-Theorem-USF-MSDS610/blob/main/Images/Dist_errors2.png)
 
 In a real hypothesis test situation, we usually use the theoretical distribution under the null hypothesis. For instance, in a regression process with known variance, we calculated the t-statistic, equal to 0.04. Since in the normal distribution N(0, \sigma^2) with a 5% significance level, 0.04 is in the red area, we should reject the null hypotheses at a 5% level of significance.
 
-![alt text](https://github.com/ashwanirajan/Central-Limit-Theorem-USF-MSDS610/blob/main/Images/Choosing_Distribution.png)
+![alt text](https://github.com/ashwanirajan/Central-Limit-Theorem-USF-MSDS610/blob/main/Images/Testing.png)
 
 In the situation where the variance is unknown, we usually use sample variance to replace it. The distribution of \beta is at distribution rather than a normal distribution.
 
