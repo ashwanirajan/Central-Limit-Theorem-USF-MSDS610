@@ -1,13 +1,13 @@
 ## <center>AIM</center>
 
-The aim of our project is to explain the Central Limit theorem to the students of the MSDS program and demonstrate the applicability of the theorem through some simulations of real world examples. We also explain an application of the central limit theorem in Linear Regression to 
+The aim of our project is to explain the Central Limit theorem to the students of the MSDS program and demonstrate the application of the theorem through some simulations of real world examples. We also discuss an interesting use case of the Central Limit Theorem in Linear Regression to explain its application from a data science perspective.
 
 ## The Central Limit Theorem
 
 ![alt text](https://github.com/ashwanirajan/Central-Limit-Theorem-USF-MSDS610/blob/main/Images/CLT_img.png)
 
 
-The Central Limit Theorem states that given a population distribution, if we take large number of equally-sized samples from it, the expectation values (means) of all these samples will follow a normal distribution centered at a value close to the population mean. The population distribution could be something like a compilation of the height measurements of all people in the US. In other words, the distribution of the sample means follows a normal distribution with a mean equal to the population average and a standard deviation equal to the population standard deviation divided by the square root of the sample size.
+The Central Limit Theorem states that given a population distribution, if we take a large number of equally-sized samples form it, the expectation values (means) of all these samples will follow a normal distribution centered close to the population mean. The population distribution could be something like a compilation of the height measurements of all people in the US. In other words, the distribution of the sample means follows a normal distribution with a mean equal to the population mean and a standard deviation equal to the population standard deviation divided by the square root of the sample size.
 
 The conditions under which the theorem hold are:
   1) The observations drawn from the population must be independent
