@@ -6,8 +6,7 @@ The aim of our project is to explain the Central Limit theorem to the students o
 
 ![alt text](https://github.com/ashwanirajan/Central-Limit-Theorem-USF-MSDS610/blob/main/Images/CLT_img.png)
 
-
-The Central Limit Theorem states that given a population distribution, if we take a large number of equally-sized samples form it, the expectation values (means) of all these samples will follow a normal distribution centered close to the population mean. The population distribution could be something like a compilation of the height measurements of all people in the US. In other words, the distribution of the sample means follows a normal distribution with a mean equal to the population mean and a standard deviation equal to the population standard deviation divided by the square root of the sample size.
+The Central Limit Theorem states that given a population distribution if we derive a large number of equally-sized samples from it, the expectation values (means) of all these samples will follow a normal distribution centered close to the population mean. The population distribution could be something like a compilation of the height measurements of all people in the US. In other words, the distribution of the sample means follows a normal distribution with a mean equal to the population mean and a standard deviation equal to the population standard deviation divided by the square root of the sample size.
 
 The conditions under which the theorem hold are:
   1) The observations drawn from the population must be independent
@@ -18,14 +17,13 @@ The conditions under which the theorem hold are:
 
 ## Visualizing the Central Limit Theorem 
 ​
-Since the Central Limit Theorem is not a straightforward concept, some visual demonstrations would help with understanding the intuition better. We have created an interactive demonstration of the Central Limit Theorem for different population distributions. Based on user input, we can draw samples from five population distributions: 
+Since the Central Limit Theorem is not a straightforward concept, some visual demonstrations would help with understanding intuition better. We have created an interactive demonstration of the Central Limit Theorem for different population distributions. Based on user input, we can draw samples from five population distributions: 
 
-  1) The uniform distribution, which models the outcome on a fair sided die.
+  1) The uniform distribution, which models the outcome on a fair-sided die.
   2) The Poisson distribution, which describes the goals scored in a football game.
   3) The Binomial distribution, which represents the number of heads on n tosses of a coin.
-  4) The normal distribution which describes the adult male heights in the US.
+  4) The normal distribution, which describes the adult male heights in the US.
   5) The exponential distribution, which describes the distribution of wait time between bus arrivals.
-
 
 ![alt text](https://github.com/ashwanirajan/Central-Limit-Theorem-USF-MSDS610/blob/main/Images/Choosing_Distribution.png)
 
@@ -38,11 +36,10 @@ You can use the slider to set the population size and then click on the "Create 
 
 Here's an outline of the process:
 
-  1) We take samples from a population distribution and calculate its mean. This is called the sampling mean
-  2) We do the above step for many iterations. This results in a distribution of sample means
-  3) We visually check if the distribution approaches a normal distribution
-  4) We can vary the parameters in step1 and step2 using a slider and obtain different distributions of sample means
-
+  1) We take samples from a population distribution and calculate its mean. This is called the sampling mean.
+  2) We do the above step for many iterations. This results in a distribution of sample means.
+  3) We visually check if the distribution approaches a normal distribution.
+  4) We can vary the parameters in step 1 and step 2 using a slider and obtain different distributions of sample means.
 
 
 ### Function descriptions​
@@ -55,19 +52,19 @@ Based on user input, we generate samples from one of the five distributions.
 ​
 #### The sampling_dist function  ​
 
-This function takes the whole population data as a parameter, and it generates random samples from the population and stores the sample mean. We can tune the function for different sample sizes and the number of sample iterations (n) using the sliders. We first pick some observations from the original population, calculate their mean and repeat this process n times. The distribution of means then decides the number of bins. Lastly, we pass the output to the plotter function.
+This function takes the whole population data as a parameter and generates random samples from the population and stores the sample mean. We can tune the function for different sample sizes and the number of sample iterations (n) using the sliders. We first pick some observations from the original population, calculate their mean and repeat this process n times. The distribution of means then decides the number of bins. Lastly, we pass the output to the plotter function.
 ​
 ### The plotter function 
 
 This function is used to visualize the distributions generated. This function takes the sample mean data, the distribution name, and two parameters to set the plot. If the distribution is discrete, we plot a bar chart. While if it is continuous, we will plot a histogram. Since the mean is approximately normally distributed, we always use the continuous distribution type. 
-​
+
 
 ## Applications of the Central Limit theorem
 
-Now that you have a basic knowledge of the Central Limit Theorem, Let's understand an implementation of the Central Limit Theorem in Data Science.
+Now that you have a basic knowledge of the Central Limit Theorem, Let's understand the implementation of the Central Limit Theorem in Data Science.
 
 Here is a quote from Dr. David Kleinbaum. 
-> "Only extreme departure of distribution of Y from normality yield suspicious results." 
+> "Only extreme departure of distribution of Y from normality yields suspicious results." 
 
 We learned that non-normality is not a critical assumption violation in linear regression, as long as the sample size is large enough. Doesn't that sound familiar? Yes, this is similar to one of the conditions from the Central Limit Theorem.
 We will do a simulation based on the model 𝑦=3+5·𝑥. Our data is generated by adding a random error term 𝜀, which is uniformly distributed. The steps are:
