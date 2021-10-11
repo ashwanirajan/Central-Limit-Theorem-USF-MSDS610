@@ -81,11 +81,11 @@ fit with the histogram.
 
 ![alt text](https://github.com/ashwanirajan/Central-Limit-Theorem-USF-MSDS610/blob/main/Images/Dist_errors2.png)
 
-In a real hypothesis test situation, we usually use the theoretical distribution under the null hypothesis. For instance, in a regression process with known variance, we calculated the t-statistic, equal to 0.04. Since in the normal distribution N(0, \sigma^2) with a 5% significance level, 0.04 is in the red area, we should reject the null hypotheses at a 5% level of significance.
+In a real hypothesis test situation, we usually use the theoretical distribution under the null hypothesis. For instance, in a regression process with known variance, we calculated the t-statistic, equal to 0.04. Since in the normal distribution N(0, σ^2) with a 5% significance level, 0.04 is in the red area, we should reject the null hypotheses at a 5% level of significance.
 
 ![alt text](https://github.com/ashwanirajan/Central-Limit-Theorem-USF-MSDS610/blob/main/Images/Testing.png)
 
-In the situation where the variance is unknown, we usually use sample variance to replace it. The distribution of bb is at distribution rather than a normal distribution.
+In the situation where the variance is unknown, we usually use sample variance to replace it. The distribution of β is at distribution rather than a normal distribution.
 
 
 ## In summary
