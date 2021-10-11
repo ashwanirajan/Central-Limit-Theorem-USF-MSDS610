@@ -97,7 +97,7 @@ Population Distribution             |  Sampling Distribution of Sample Means
 
 ## Installations
 
-### Viola
+### Voila
 On your jupyter notebook, run 
 ```console 
 !pip install voila
